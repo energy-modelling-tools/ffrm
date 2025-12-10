@@ -2,9 +2,9 @@
   icon: bi bi-github
   url:   https://github.com/FossilFuelRetirementModel/ffrm_python 
 
-- name: Discord
-  icon: bi bi-discord
-  url: https://forum.u4ria.org/
+- name: Discourse
+  icon: /assets/img/EMC_2_smaller.png
+  url: https://forum.u4ria.org/c/ffrm/15
 
 
 

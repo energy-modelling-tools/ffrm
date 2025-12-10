@@ -6,7 +6,7 @@
 # feature for the data you need to update frequently.
 
 # global settings
-title: " Fossil Fuel Retirement Model (FFRM)"
+title: "FFRM"
 description: "GitHub helps government build software better, together"
 baseurl: "/ffrm"
 permalink: "/stories/:title"
