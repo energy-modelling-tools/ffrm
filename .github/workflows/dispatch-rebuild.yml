@@ -1,6 +1,7 @@
 name: Rebuild on template update
 
 on:
+  workflow_dispatch:
   repository_dispatch:
     types: [page-template-updated]
 
