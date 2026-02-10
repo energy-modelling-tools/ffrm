@@ -14,7 +14,7 @@ permalink: "/stories/:title"
 relative_permalinks: false
 forum_slug: "ffrm"
 # Remote Theme Configuration
-remote_theme: energy-modeling-tools/page-template@main
+remote_theme: energy-modelling-tools/page-template@main
 
 # build settings
 exclude: ["script", "vendor", "bower.json", "Gemfile", "Gemfile.lock", "Rakefile", "readme.md", "package.json", "node_modules","*_tmp.html","*_tmp.*"]
