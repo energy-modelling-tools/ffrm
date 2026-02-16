@@ -27,7 +27,7 @@ permalink: /
 
 
     <p class="text-center">
-      <a href="/applications/" class="btn btn-outline">See more &rarr;</a>
+      <a href="{{ '/applications/' | relative_url }}" class="btn btn-outline">See more &rarr;</a>
     </p>
   </div>
 </section>
@@ -37,7 +37,7 @@ permalink: /
     <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="partner-institutions">Active Partner Institutions and Programmes</h2>
     <!-- <p class="alt-lead text-gray text-center col-md-10 mx-auto">Active Partner Institutions and Programmes</a>.</p> -->
   </div>
-  <div style="overflow: hidden;">
+  <div class="page-overflow-hidden">
     {% assign count = 0 %}
     {% for partner in site.data.orgs.partners %}
       {% assign count = count | plus:1 %}
@@ -67,8 +67,13 @@ permalink: /
     <h3 class="alt-h2 mb-4">Explore FFRM on</h3>
     <p class="f2-light text-white">
       {% for platform in site.data.social_media %}
-        <a href="{{ platform.url }}" class="px-2" style="text-decoration: none !important;">
-          <i class="{{ platform.icon }} logo logo-hover py-3" style="font-size: 32px"></i>
+        <a href="{{ platform.url }}" class="px-2 social-link">
+          {% assign icon = platform.icon | default: "" %}
+          {% if icon contains ".png" or icon contains ".jpg" or icon contains ".jpeg" or icon contains ".svg" %}
+            <img src="{{ icon | relative_url }}" alt="{{ platform.name }}" class="social-icon-img">
+          {% else %}
+            <i class="{{ icon }} logo logo-hover py-3 social-icon"></i>
+          {% endif %}
         </a>
       {% endfor %}
     </p>
