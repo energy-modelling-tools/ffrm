@@ -30,7 +30,7 @@ permalink: /learning_capacity/
       <p class="animate-in">Take your skills to the next level by modelling a zero-order representation of your country using specially designed national data packages adapted for OSeMOSYS.</p>
       <div class="row align-items-center mb-4 animate-in">
         <div class="col-md-6">
-          <p class="animate-in">Enhance your skills in energy systems modelling with our user-friendly interface and additional learning materials, enabling comprehensive national-level modelling of the power and transport sectors.</p>
+          <p class="animate-in text-justify">Enhance your skills in energy systems modelling with our user-friendly interface and additional learning materials, enabling comprehensive national-level modelling of the power and transport sectors.</p>
           <ul class="animate-in">
             <li><strong>Download Interface</strong> – <em>Coming soon</em></li>
             <li><strong>Teaching Material (Zenodo)</strong> – <em>Coming soon</em></li>
