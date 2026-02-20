@@ -7,7 +7,7 @@
 
 # global settings
 title: "FFRM"
-logo: "/assets/img/logos/FFRM.svg"
+logo: "/assets/img/logos/ffrm.svg"
 description: "GitHub helps government build software better, together"
 baseurl: "/ffrm"
 permalink: "/stories/:title"
