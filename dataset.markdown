@@ -15,11 +15,15 @@ permalink: /dataset/
     <h3 class="alt-h3 mt-5">🖥️ Modelling User Interface for OSeMOSYS (MUIO)</h3>
     <div class="row align-items-center mb-5">
       <div class="col-md-6">
+        <!-- CMS:section id=dataset_modelling_user_interface_for_osemosys -->
         <p class="text-justify">Enhance your skills in energy systems modelling with our user-friendly interface and additional learning materials, enabling comprehensive national-level modelling of the power and transport sectors.</p>
+        <!-- /CMS:section -->
+        <!-- CMS:section id=dataset_modelling_user_interface_for_osemosys_2 -->
         <ul>
           <li><strong>Download Interface</strong> – <em>Coming soon</em></li>
           <li><strong>Teaching Material (Zenodo)</strong> – <em>Coming soon</em></li>
         </ul>
+        <!-- /CMS:section -->
       </div>
     </div>
 

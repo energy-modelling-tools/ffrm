@@ -10,7 +10,9 @@ permalink: /applications/
   </div>
 
   <div class="applications-content text-left">
+    <!-- CMS:section id=application_ffrm_applications -->
     <p class="lead mb-4">FFRM is a useful tool for assessing the stranded cost implications that may arise as a country decarbonizes its electricity sector. The model was originally developed by the World Bank to assess stranded cost under various defined scenarios, with its most recent application in exploring the stranded cost implications of decarbonizing India and the Philippines power sector. </p>
+    <!-- /CMS:section -->
 
     <!--
      <div class="applications-grid">
@@ -85,7 +87,9 @@ permalink: /applications/
 <section class="container-lg p-responsive py-4 py-md-6 my-lg-6">
   <div class="recommended-reading">
     <h2 class="alt-h2 text-center mb-4">Recommended Reading</h2>
+    <!-- CMS:section id=application_recommended_reading -->
     <p class="text-center mb-5">For a broader analysis of applications and advancements in OSeMOSYS, see the following peer-reviewed publications:</p>
+    <!-- /CMS:section -->
 
     <div class="publications-list">
       {% for publication in site.data.publications %}

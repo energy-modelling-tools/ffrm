@@ -9,14 +9,17 @@ permalink: /about/
   <h2 class="alt-h3 mb-4">About FFRM </h2>
   <div class="container-lg p-responsive py-4 py-md-6 ">
     <div class="col-md-12 animate-out mb-2">
+      <!-- CMS:section id=about_about_ffrm -->
       <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
         <strong>FFRM</strong> utilises a Pyomo-based optimisation framework to endogenously calculate stranded cost, taking into consideration commercial and market issues. It uses projections for capacity and production of fossil fuel power plants to explore their retirement profile under two types of price regimes: PPA and Market Price regime. The model assesses at what capacity fossil fuel power plants become stranded and explores how this influences total compensation for stranded plants. 
         
         The model is designed to complement more detailed long-term capacity expansion models, such as OSeMOSYS, TIMES, LEAP, and others, but can also be used as a standalone retirement model. 
       </p>
+      <!-- /CMS:section -->
     </div>
     <h2 class="aboutpage-subtitle text-left mb-3 mt-lg-6" id="more-than-just-code">What does it aim to do?</h2>
     <div class="col-md-12 animate-out mb-2">
+      <!-- CMS:section id=about_what_does_it_aim_to -->
       <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto">
       The objective function of the model is set as maximisation of the net revenue at the fossil fuel power plants fleet, based on either: 
       
@@ -26,6 +29,7 @@ permalink: /about/
       
       The difference in net revenue between the BAU and a decarbonization scenario is used as a measure of foregone revenue. 
       </p>
+      <!-- /CMS:section -->
     </div>
   </div>
 </div>
